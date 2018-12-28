@@ -1,0 +1,29 @@
+.question {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .title{
+    color: $white;
+  }
+  .border {
+    background-color: #948747;
+  }
+  &_desc {
+
+    max-width: 56rem;
+    margin: 4rem auto 4rem;
+    p {
+      font-weight: 300;
+      font-size: 1.6rem;
+      line-height: 1.3;
+      color: $white;
+    }
+  }
+  .button{
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}

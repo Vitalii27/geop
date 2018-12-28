@@ -1,0 +1,43 @@
+.map-section {
+  position: relative;
+  &_content {
+    width: 36.5rem;
+    position: absolute;
+    right: 22%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba($white, .7);
+    padding: 4rem 2rem 6rem 3rem;
+    .title {
+      text-align: left;
+    }
+    .border {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &-wrap {
+      margin-top: 2rem;
+    }
+  }
+  &_title {
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+  &_link {
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .map-section {
+
+    &_content {
+      position: static;
+    }
+  }
+}

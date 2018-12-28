@@ -1,0 +1,52 @@
+
+.slider_btn {
+  background-color: $black;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 3rem;
+}
+
+.slider_btn--next {
+  right: 18%;
+}
+
+.slider_btn--prev {
+  left: 18%;
+}
+.slick-dots li button:before{
+  font-size: 11px !important;
+}
+.slick-dots li.slick-active button:before{
+  color: $orange !important;
+  font-size: 18px !important;
+}
+.slick-dots li{
+  margin: 0 !important;
+}
+.slick-dots{
+  bottom: -22px;
+}
+@media only screen and (max-width: $screen-md-max) {
+  .slider_btn--next {
+    right: 1%;
+  }
+
+  .slider_btn--prev {
+    left: 1%;
+  }
+}
+@media only screen and (max-width: $screen-xs-max) {
+  .slider_btn--next {
+    right: -1rem;
+  }
+
+  .slider_btn--prev {
+    left: -1rem;
+  }
+}

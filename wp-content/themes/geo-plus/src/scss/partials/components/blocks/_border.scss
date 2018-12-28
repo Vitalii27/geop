@@ -1,0 +1,9 @@
+.border {
+  width: 10rem;
+  height: 1px;
+  background-color: #a1a7a9;
+  margin: 2rem auto;
+  &--black{
+    background-color: $black;
+  }
+}

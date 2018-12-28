@@ -1,0 +1,56 @@
+.how-order {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  &_item {
+    margin-top: 2rem;
+    text-align: center;
+    margin-right: 3rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &_text {
+    max-width: 22rem;
+    p {
+      font-size: 1.4rem;
+      line-height: 1.3;
+      color: #2D2D2D;
+      font-weight: 300;
+      margin-top: 1rem;
+    }
+  }
+  &_name {
+    font-weight: 400;
+    color: #2D2D2D;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+
+  }
+
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .how-order {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    &_list {
+
+      margin-top: 2rem;
+    }
+    &_item {
+
+      margin-right: 0;
+
+    }
+  }
+}

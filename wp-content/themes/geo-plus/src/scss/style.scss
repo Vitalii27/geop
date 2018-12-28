@@ -1,0 +1,102 @@
+/* VARIABLES */
+
+@import "partials/common/variables";
+@import "partials/common/fonts";
+
+
+/* VARIABLES END */
+
+
+/* -------------------- */
+
+
+/* VENDOR */
+
+@import "partials/vendor/normalize";
+//@import "partials/vendor/clearfix";
+//@import "partials/vendor/bootstrap-grid/bootstrap-grid";
+//@import "partials/vendor/bootstrap-grid/responsive-utilities";
+
+/* VENDOR END */
+
+
+/* -------------------- */
+
+
+/* COMMON */
+
+@import "partials/common/best-practices";
+@import "partials/common/common";
+@import "partials/common/service-classes";
+
+/* COMMON END */
+
+
+/* -------------------- */
+
+
+/* LAYOUT */
+
+@import "partials/layout/layout";
+
+/* LAYOUT END */
+
+
+/* -------------------- */
+
+
+/* BLOCKS */
+
+@import "partials/components/blocks/mixins/placeholder";
+@import "partials/components/blocks/menu-btn";
+@import "partials/components/blocks/swipe-menu";
+@import "partials/components/blocks/popup";
+@import "partials/components/blocks/title";
+
+@import "partials/components/blocks/slider";
+@import "partials/components/blocks/map";
+@import "partials/components/blocks/wpcf7";
+@import "partials/components/blocks/alert";
+@import "partials/components/blocks/border";
+@import "partials/components/blocks/button";
+
+
+/* BLOCKS END*/
+
+/* SECTIONS */
+
+@import "partials/components/blocks/404";
+@import "partials/components/blocks/hero";
+@import "partials/components/blocks/about";
+@import "partials/components/blocks/license";
+@import "partials/components/blocks/services";
+@import "partials/components/blocks/how-order";
+@import "partials/components/blocks/price";
+@import "partials/components/blocks/advantages";
+@import "partials/components/blocks/question";
+
+
+
+
+/* SECTIONS END*/
+/* -------------------- */
+
+
+/* GENERAL */
+
+@import "partials/components/header";
+@import "partials/components/footer";
+
+/* GENERAL END */
+
+
+/* -------------------- */
+
+
+/* PAGES */
+
+
+/* PAGES END */
+
+
+/* -------------------- */

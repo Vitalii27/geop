@@ -1,0 +1,90 @@
+/* common.scss */
+
+/* selection */
+
+*::selection {
+  color: $grey;
+  background: rgba($grey, 0.3);
+}
+
+:root {
+  font-size: $html-font-size;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  min-width: $content-min-width;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: $black;
+  background: $white;
+  overflow-x: hidden;
+  font-family: $main-font;
+  font-weight: 400;
+}
+
+section, .section {
+  position: relative;
+}
+img{
+  max-width: 100%;
+}
+.arrow-to-up{
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: $orange;
+  border-radius: 50%;
+  transition: opacity .2s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 80;
+  a{
+    display: block;
+  }
+  &:hover{
+    opacity: 1;
+  }
+  .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white;
+    font-size: 2.5rem;
+    z-index: 81;
+  }
+}
+.container-second{
+  max-width: 112rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .arrow-vissible{
+    opacity: .8;
+    visibility: visible;
+  }
+}
+//@media only screen and (max-width: $screen-md-max) {
+//  section {
+//    padding: 0 15px;
+//  }
+//}
+
+/* common.scss end */

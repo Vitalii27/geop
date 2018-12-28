@@ -1,0 +1,26 @@
+.about{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &_desc{
+    p{
+      font-size: 1.8rem;
+      text-align: justify;
+      line-height: 1.4;
+      color: #333333;
+    }
+  }
+}
+@media only screen and (max-width: $screen-xs-max) {
+  .about{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    &_desc{
+      p{
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 1.3;
+
+      }
+    }
+  }
+}
